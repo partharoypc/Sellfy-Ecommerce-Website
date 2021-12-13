@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nbjdvbkjl h */
+
+.brfore-class::before {
+    content: "";
+    position: absolute;
+    background: #f4f4f4;
+    height: 120%;
+    width: 260%;
+    border-radius: 90% 10% 0 0;
+    z-index: -1;
+    left: -30%;
+}
+
+.or::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 47%;
+    left: 0;
+    background-color: #adadad;
+}
+
+.or::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 47%;
+    right: 0;
+    background-color: #adadad;
+}

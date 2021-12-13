@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellfy-Ecommerce Website</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="container mx-auto max-w-6xl  p-5 flex-col md:flex-row ">
+            <div class="flex flex-wrap justify-between items-center">
+                <a class="flex items-center mb-4 md:mb-0" href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mx-auto max-w-lg text-center py-12 sm:pt-20">
+        <h2 class="text-3xl font-bold text-center">Log in to Sellfy</h2>
+
+
+
+        <form action="action_page.php" class=" pt-10">
+            <div class="pb-4">
+                <label for="email" class=" float-left leading-7 text-base text-sellfy-gray2">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Example@gmail.Com" class="w-full bg-white rounded border border-sellfy-gray2 py-3 px-3">
+            </div>
+
+            <div class="pb-12">
+                <label for="name" class=" float-left leading-7 text-base text-sellfy-gray2">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="*******" minlength="6" class="w-full place-self-auto bg-white rounded border border-sellfy-gray2 py-3 px-3">
+                <a class=" float-right text-sellfy-gray text-sm pt-1 hover:text-sellfy-link-bg1" href="reset_password.html">Forgot your password?</a>
+            </div>
+
+            <div class="py-4">
+                <button class=" w-full bg-sellfy-hover rounded-md py-4 text-white font-semibold hover:bg-sellfy-button" type="submit">Login</button>
+
+            </div>
+
+        </form>
+
+        <div class="box-border py-0.5 relative">
+            <h4 class="or text-xs text-sellfy-gray font-bold">OR</h4>
+
+        </div>
+
+        <div class="py-4">
+            <button class=" w-full bg-sellfy-hover rounded-md py-4 text-white font-semibold hover:bg-sellfy-button" type="submit"><i class="fab fa-facebook-square pr-2"></i>Login With Facebook</button>
+
+        </div>
+
+
+
+        <div class="pb-1">
+            <button class=" w-full bg-black rounded-md py-4 text-white font-semibold hover:bg-sellfy-gray2" type="submit"><i class="fab fa-apple pr-2"></i>Continue with Apple</button>
+
+        </div>
+
+        <p class=" text-sm text-sellfy-gray">Don't have an account yet? <a href="signup.html"> Sign up →</a></p>
+
+    </div>
+
+
+
+
+    <div class="brfore-class mx-auto relative max-h-36 z-0 pt-12">
+
+        <img class="transform -translate-y-16 mx-auto items-center" src="img/sign-up.svg" alt="">
+
+    </div>
+
+</body>
+
+</html>

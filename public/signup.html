@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellfy-Ecommerce Website</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="container mx-auto max-w-6xl  p-5 flex-col md:flex-row ">
+            <div class="flex flex-wrap justify-between items-center">
+                <a class="flex items-center mb-4 md:mb-0" href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+
+                <a class=" text-center text-sellfy-link-bg1 hover:text-sellfy-hover " href="login.html">Login</a>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto max-w-lg text-center py-12 sm:py-20">
+        <h2 class="text-3xl font-bold text-justify">Let's create your free trial account</h2>
+        <div class="text-xl font-medium  py-2">
+            <p> We'd love to be on a first name basis with you </p>
+        </div>
+
+        <form action="action_page.php" class=" pt-10">
+            <div class="pb-4">
+                <label for="name" class=" float-left leading-7 text-base text-sellfy-gray2">First Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Steven" class="w-full bg-white rounded border border-sellfy-gray2 py-3 px-3">
+            </div>
+
+            <div class="pb-4">
+                <label for="email" class=" float-left leading-7 text-base text-sellfy-gray2">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Example@gmail.Com" class="w-full bg-white rounded border border-sellfy-gray2 py-3 px-3">
+            </div>
+
+            <div class="pb-4">
+                <label for="name" class=" float-left leading-7 text-base text-sellfy-gray2">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="*******" minlength="6" class="w-full place-self-auto bg-white rounded border border-sellfy-gray2 py-3 px-3">
+            </div>
+            <div class="py-4">
+                <button class=" w-full bg-sellfy-hover rounded-md py-4 text-white font-semibold hover:bg-sellfy-button" type="submit">Create My Store</button>
+
+            </div>
+
+        </form>
+        <div>
+            <p class=" text-sm text-sellfy-gray2">By clicking "Create my store" you agree to Sellfy Terms of
+                <a class=" text-sellfy-btn-bg2 hover:text-sellfy-link-bg1" href="#">Services</a> and
+                <a class=" text-sellfy-btn-bg2 hover:text-sellfy-link-bg1" href="#">Privacy Policy</a>
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class="brfore-class mx-auto relative max-h-auto z-0 mt-auto">
+
+        <img class="transform -translate-y-16 mx-auto items-center" src="img/sign-up.svg" alt="">
+
+    </div>
+
+</body>
+
+</html>

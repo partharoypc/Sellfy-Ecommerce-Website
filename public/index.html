@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellfy-Ecommerce Website</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body class="font-Proxima">
+
+    <header class="text-base border-2 shadow-sm py-1 sticky top-0 bg-white z-50">
+        <div class="container max-w-6xl mx-auto flex flex-wrap p-2.5 items-center text-2xl	">
+            <a class="flex items-center mb-4 md:mb-0" href="index.html">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <nav id="myLinks" class=" hidden text-base md:ml-auto lg:flex flex-wrap items-center justify-center  text-sellfy-black">
+                <a href="Features.html" class="px-5">Features</a>
+                <a href="pricing.html" class="px-5 ">Pricing</a>
+                <a href="login.html" class="px-5 ">Log in</a>
+
+                <a href="#" class="">
+                    <button class="inline-flex items-center font-bold bg-sellfy-button text-white  border-0 py-2 px-5 focus:outline-none hover:bg-sellfy-hover rounded text-base mt-4 md:mt-0">Start Free Trial
+                    </button>
+                </a>
+            </nav>
+            <div class="flex lg:hidden flex-1 justify-end pr-8">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero  Section  -->
+
+    <section>
+        <div class=" container max-w-4xl mx-auto">
+            <div class="flex flex-wrap mx-auto py-20 items-center  justify-center flex-col">
+                <div class="text-center w-full mx-auto">
+                    <h1 class="text-4xl md:text-6xl font-semibold py-4 text-sellfy-black">Sell your products
+                        <br> hassle-free
+                    </h1>
+                    <p class=" mx-24 py-4 md:text-2xl  text-sellfy-gray2">Easy-to-use eCommerce for creators. Sell merchandise or digital products — all from one place.</p>
+                    <div class="text-xs md:text-xl flex justify-center">
+                        <a class=" text-white bg-sellfy-button border-0 py-4 px-6 rounded " href="#">Start 14-day free trial</a>
+
+                    </div>
+                    <p class="pt-1 font-thin text-sm text-sellfy-gray">No credit card required. Cancel anytime.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="relative mx-auto items-center max-w-5xl z-10 md:hidden">
+
+            <img class="w-full object-cover object-center" src="img/home-hero-mobile.png" alt="">
+
+        </div>
+        <div class="hidden md:block relative mx-auto items-center max-w-5xl z-10">
+            <img class="w-full object-cover object-center" alt="hero" src="img/hero-section.png">
+
+        </div>
+
+    </section>
+
+
+    <!-- Show Case  Section  -->
+
+    <section class="relative bg-sellfy-bg-gray -top-48 md:-top-32 z-0">
+
+        <div class=" container mx-auto max-w-6xl py-40  ">
+            <div class="flex flex-wrap flex-col items-center justify-center py-10">
+                <h1 class="text-2xl md:text-4xl font-bold py-3 text-sellfy-black text-center max-w-sm md:max-w-sm md:text-justify ">Get your store up and running in 5 minutes</h1>
+                <p class="text-lg md:text-xl text-sellfy-gray2 justify-center max-w-md md:max-w-md text-center">Ideal for creators and online businesses who hate complexity but want results.</p>
+
+            </div>
+
+            <div class="flex flex-wrap flex-row justify-between p-4">
+
+                <div class=" w-full md:w-1/2  bg-sellfy-hover rounded-md pl-12 pr-3">
+
+                    <div class=" text-white max-w-sm pt-8 md:pt-12">
+                        <h1 class=" text-4xl pb-6 font-bold ">Start easily</h1>
+                        <p class=" text-base">Create a store in a couple of clicks. Sign up, add your products, customize your store and you're live.</p>
+                    </div>
+                    <div class=" pt-6 pb-10">
+                        <img class="hidden md:block mx-auto w-full" src="img/slid bg02.png" alt="">
+                    </div>
+
+                    <div class=" pt-10 pb-10 ">
+                        <img class=" md:hidden mx-auto w-full" src="img/slid bg02 mobile.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="w-full md:w-1/2 py-4  md:py-0 md:px-2">
+                    <div class="flex flex-wrap flex-col space-y-4 ">
+                        <div class="inline-flex bg-sellfy-btn-bg2 rounded-md p-5">
+                            <div class="pt-4 pl-4 max-w-xs">
+                                <h1 class="text-white text-4xl pb-2 font-bold">Grow big</h1>
+                                <p class="text-white text-base">Use built-in marketing features to grow your sales and business.</p>
+                            </div>
+                            <div class=" float-right">
+                                <img class="float-right" src="img/slid bg03 mobile.png" alt="">
+
+                            </div>
+                        </div>
+                        <div class=" inline-flex bg-white rounded-md p-10">
+                            <div class="max-w-xs">
+                                <h1 class="text-black   text-2xl md:text-4xl pb-2 font-bold">Sell anywhere</h1>
+                                <p class="text-black   text-base">Reach your audience and sell directly on social media, your own website or anywhere else with a custom storefront.</p>
+                            </div>
+
+                            <div class=" float-right">
+                                <img class="float-right" src="img/slid bg04.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Card   Section -->
+    <section class=" bg-white bottom-10">
+        <div class=" container mx-auto max-w-6xl py-12">
+            <div class="flex flex-wrap items-start justify-center">
+                <div class="w-1/2 lg:w-1/4 p-3">
+
+                    <img class=" p-6 rounded-md bg-sellfy-bg-gray" src="img/card01.svg" alt="">
+                    <h1 class=" pt-10 text-xl font-semibold">Built-in print on demand</h1>
+                    <h4 class="py-4">Launch your print on demand merch store within minutes. Design, create and sell from one storefront.</h4>
+
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-3">
+                    <img class="h-24 w-24 p-6 rounded-md bg-sellfy-bg-gray" src="img/card02.svg" alt="">
+                    <h1 class="pt-10 text-xl font-semibold">Digital products</h1>
+                    <h4 class="py-4">Sell your digital goods without the technical headaches. File hosting, delivery — everything's included.</h4>
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-3">
+                    <img class=" p-6 rounded-md bg-sellfy-bg-gray" src="img/card03.svg" alt="">
+                    <h1 class=" pt-10 text-xl font-semibold">Website embed</h1>
+                    <h4 class="py-4">Easily add a “buy now” button, shopping cart and more to your website with just a simple copy— paste.</h4>
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-3">
+                    <img class="h-24 w-24 p-6 rounded-md bg-sellfy-bg-gray" src="img/card04.svg" alt="">
+                    <h1 class=" pt-10 text-xl font-semibold">24/7 support</h1>
+                    <h4 class="py-4">A helping hand whenever you need it. An excellent support team available 24/7.</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Slide  Secttion -->
+    <section class=" border-t-2 border-sellfy-gray py-36 ">
+        <div class="items-center text-center mx-auto max-w-2xl px-8 pt-16 pb-4">
+            <h1 class=" text-black text-4xl font-bold  ">Join a community of 32,000+ creators</h1>
+            <p class="text-sellfy-gray2 text-2xl px-4 py-4">Open your online store today and turn your passion into income.</p>
+        </div>
+        <div class="flex mx-auto justify-center space-x-4 px-4">
+            <div class="w-1/5">
+                <img class="" src="img/slid1.png" alt="">
+                <h1 class=" pt-6 text-black  text-2xl font-bold">Sorelle Amore</h1>
+                <p class=" py-2 font-light">Entrepreneur</p>
+            </div>
+            <div class="w-1/5">
+                <img src="img/slid2.png" alt="">
+                <h1 class=" pt-6 text-black  text-2xl font-bold">PVLACE</h1>
+                <p class=" py-2 font-light">Music producer</p>
+            </div>
+            <div class="w-1/5">
+                <img src="img/slid3.png" alt="">
+                <h1 class=" pt-6 text-black  text-2xl font-bold">Sorelle Amore</h1>
+                <p class=" py-2 font-light">Photographer / YouTuber</p>
+            </div>
+            <div class="w-1/5">
+                <img src="img/slid4.png" alt="">
+                <h1 class=" pt-6 text-black  text-2xl font-bold">Christian Maté Grab</h1>
+                <p class=" py-2 font-light">Filmmaker / Photographer</p>
+            </div>
+            <div class="w-1/5">
+                <img src="img/slid5.png" alt="">
+                <h1 class=" pt-6 text-black  text-2xl font-bold">Salt in our Hair</h1>
+                <p class=" py-2 font-light">Travel bloggers</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Open Your Store  Section -->
+    <section class=" bg-sellfy-hover py-32">
+        <div class="flex flex-wrap flex-col text-center  items-center justify-center">
+            <h1 class="text-3xl text-white md:text-5xl font-bold  ">Open your online store today!</h1>
+            <div class="text-lg pt-8">
+                <a class="rounded-sm text-sellfy-hover bg-white border-0 py-4 px-7 font-light" href="#">Start 14-day free trial</a>
+            </div>
+            <p class="text-white pt-6 max-w-xs md:max-w-6xl">Free and paid plans available with no transaction fees.</p>
+        </div>
+    </section>
+
+
+    <!--  ====================== Slide Section =============================  -->
+    <section class=" bg-white ">
+
+    </section>
+
+
+
+
+
+    <!--  ====================== Footer Section-1 =============================  -->
+    <footer class=" bg-sellfy-bg-gray px-6">
+        <div class="container max-w-6xl mx-auto pt-12 pb-8">
+            <div class=" flex flex-wrap py-4 justify-center">
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2">
+                    <p class="text-base font-bold py-4">Product</p>
+                    <ul>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Home</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"> <a href="#">Feature</a></li>
+                        <li class=" py-1  text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Prising</a></li>
+                    </ul>
+                </div>
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2">
+                    <p class="text-base font-bold py-4">Use Cases</p>
+                    <ul>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Digital Downloded</a></li>
+                        <li class=" py-1  text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Merchandise</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Subscriptions</a></li>
+                    </ul>
+                </div>
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2">
+                    <p class="text-base font-bold py-4">Company</p>
+                    <ul>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">About</a></li>
+                        <li class=" py-1 text-sellfy-gray2  hover:text-sellfy-hover"><a href="#">Affiliates</a></li>
+                        <li class=" py-1 text-sellfy-gray2  hover:text-sellfy-hover"><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2 ">
+                    <p class="text-base font-bold py-4">Useful resources</p>
+                    <ul>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Blog</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Getting started</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">YouTube calculator</a></li>
+                    </ul>
+                </div>
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2">
+                    <p class="text-base font-bold py-4">Contact</p>
+                    <ul>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Contact support</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Help docs</a></li>
+                    </ul>
+                </div>
+                <div class="sm:w-1/2 md:w-4/12 lg:w-2/12 w-1/2">
+                    <p class="text-base font-bold py-4 opacity-0">Contact</p>
+
+                    <ul class="">
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Terms</a></li>
+                        <li class=" py-1 text-sellfy-gray2 hover:text-sellfy-hover"><a href="#">Privacy policy</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Sub  Footer Section   -->
+        <div class="border-t-2">
+
+            <div class="container max-w-6xl mx-auto pt-12 pb-8 ">
+
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-1/2">
+                        <img src="img/logo.svg" alt="Logo" srcset="">
+                    </div>
+                    <div class="w-1/2">
+                        <ul class="flex flex-wrap justify-end space-x-6">
+                            <li><a href="#"><i class="fab fa-facebook-square fa-2x text-sellfy-gray2  hover:text-sellfy-hover"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram fa-2x text-sellfy-gray2 hover:text-sellfy-hover "></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-2x text-sellfy-gray2  hover:text-sellfy-hover"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
